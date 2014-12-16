@@ -1,0 +1,20 @@
+{
+	"name": "easytek/sf-guard-password-bundle",
+	"type": "symfony-bundle",
+	"description": "Symfony 2 compatibility bundle for symfony1 sfGuard plugin",
+	"keywords": ["sfguard", "legacy", "password"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Jérémy CROMBEZ"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=5.3.2"
+	},
+	"autoload": {
+		"psr-0": { "Easytek\\SfGuardPasswordBundle\\": "" }
+	},
+	"target-dir": "Easytek/SfGuardPasswordBundle"
+}
